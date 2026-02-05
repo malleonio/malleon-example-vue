@@ -25,7 +25,8 @@ dist-ssr
 
 # E2E testing - SDK file copied during testing
 public/replay.es.js
-
+src/lib/replay.es
+src/lib/replay.es.js
 
 
 
