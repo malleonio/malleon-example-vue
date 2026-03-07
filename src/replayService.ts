@@ -1,23 +1,5 @@
-import * as ReplaySDK from './lib/replay.es';
-// Inline types for e2e testing (normally imported from @malleon/replay)
-type TagType = 'STR' | 'LARGE_STR' | 'NUM' | 'DATETIME' | 'BOOL';
-interface ReplayTag {
-  name: string;
-  value: string | number | boolean | Date;
-  type: TagType;
-}
-interface ReplayUserData {
-  appId?: string;
-  userId?: string;
-  username?: string;
-  userEmail?: string;
-  userRole?: string;
-  userStatus?: string;
-  environment?: string;
-  tenantId?: string;
-  tenantType?: string;
-  userType?: string;
-}
+import * as ReplaySDK from '@malleon/replay';
+import type { ReplayUserData, ReplayTag, TagType } from '@malleon/replay';
 
 import { config } from './config.js';
 

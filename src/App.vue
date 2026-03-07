@@ -132,7 +132,7 @@
 
     <footer>
       <p>💡 <strong>Tip:</strong> After interacting with this page, check your Malleon account dashboard to see the captured replay data!</p>
-      <p>Make sure you've set your <code>replayAppId</code> in <code>src/config.js</code></p>
+      <p>Make sure you've set your <code>replayAppId</code> in <code>src/config.ts</code></p>
     </footer>
   </div>
 </template>
