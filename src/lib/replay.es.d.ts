@@ -4,6 +4,10 @@ declare global {
         __REPLAY_STARTED__?: boolean;
         __REPLAY_DISABLED__?: boolean;
         __replay__appId?: string;
+        __replay__release?: string;
+        __replay__dist?: string;
+        initReplay?: typeof initReplay;
+        waitForAppIdAndInitReplay?: typeof waitForAppIdAndInitReplay;
         addTagsToReplay?: typeof addTagsToReplay;
         addTagToReplay?: typeof addTagToReplay;
         updateReplayUserData?: typeof updateReplayUserData;
