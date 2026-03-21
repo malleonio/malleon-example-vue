@@ -10,7 +10,7 @@
   },
   "private": true,
   "dependencies": {
-    "@malleon/replay": "^1.0.21",
+    "@malleon/replay": "^1.0.25",
     "vue": "^3.3.11"
   },
   "devDependencies": {

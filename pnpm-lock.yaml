@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@malleon/replay':
-        specifier: ^1.0.21
-        version: 1.0.21
+        specifier: ^1.0.25
+        version: 1.0.25
       vue:
         specifier: ^3.3.11
         version: 3.5.25(typescript@5.9.3)
@@ -188,8 +188,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
-  '@malleon/replay@1.0.21':
-    resolution: {integrity: sha512-Y+TVXWeHRioFABmftY1dLijXuXMB8+fE0mfuPBxSroPYmVTbvIXw6TUMW5HSzi70XeC85/fDCpGv/TE+IBSZfw==}
+  '@malleon/replay@1.0.25':
+    resolution: {integrity: sha512-jNOkkPPO1lSbMHJ4cgH5Ti35SgXQfd4UVuoNsh0+jzqNp2Fopu86bEs32dW/fd8o8La/bTKZbzxNN6lx7RvAkg==}
 
   '@rollup/rollup-android-arm-eabi@4.53.3':
     resolution: {integrity: sha512-mRSi+4cBjrRLoaal2PnqH82Wqyb+d3HsPUN/W+WslCXsZsyHa9ZeQQX/pQsZaVIWDkPcpV6jJ+3KLbTbgnwv8w==}
@@ -575,7 +575,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
-  '@malleon/replay@1.0.21':
+  '@malleon/replay@1.0.25':
     dependencies:
       ts-md5: 1.3.1
 
